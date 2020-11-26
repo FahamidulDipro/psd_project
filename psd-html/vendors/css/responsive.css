@@ -1,0 +1,208 @@
+@media only screen and (max-width:1024px){
+    .hero_text_box{
+        font-size: 57%;
+    }
+    .row{
+        margin:0 1.5rem;
+    }
+    html{
+        font-size: 57% !important;
+    }
+    .logo {
+        height: 35px;
+        width: auto;
+        margin-top: -24px;
+        float: left;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+    .main-nav{
+        display:none;
+    }
+    .about-section{
+      text-align: center;
+       
+    }
+    .image-container img {
+        height: 9rem;
+        width: 9rem;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+    .image-container {
+        display: block !important;
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+        overflow: hidden;
+    }
+    .contact-section form {
+        width: 100% !important;
+        margin-left: 0 !important;
+        overflow: hidden;
+    }
+    .team-member {
+        height: 10rem !important;
+        width: 10rem !important;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-top: 6rem;
+        margin-bottom: 4rem;
+    }
+}
+
+
+/* For 980px */
+
+
+@media only screen and (max-width:980px){
+    .span_1_of_4{
+        width:49.2% ;
+    }
+    .hero_text_box {
+        font-size: 70%;
+    }
+    .portfolio-section img {
+        height: 20rem !important;
+        width: 30rem !important;
+        /* object-fit: contain; */
+    }
+    h1{
+        font-size: ;
+    }
+
+}
+/* @media only screen and (min-width:200px){
+    .row{
+        margin:0 1.5rem;
+    }
+    .logo {
+        height: 35px;
+        width: auto;
+        margin-top: -24px;
+        float: left;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+} */
+
+
+@media only screen and (max-width:768px){
+   h1{
+       font-size: 3.2rem !important;
+   }
+   .hero_text_box {
+	position: absolute;
+	top: 47%;
+	left: 48%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	width: 78% !important;
+}
+.active{
+    
+     background:none !important;
+     padding:0rem 5%;
+     margin-left: 0 !important;
+ }
+ .mean-container .mean-nav ul li {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin: 0 !important;
+	padding: .5rem !important;
+}
+.mean-container{
+    margin:0 !important;
+    padding:0 !important;
+    box-sizing: border-box;
+    height:100vh !important;
+}
+.mean-nav{
+    background:transparent !important;
+}
+.mean-nav ul{
+    background:#87509c !important;
+
+ 
+}
+.footer-container ul li{
+    font-size: 2.4rem;
+    color:#fff;
+    font-weight: bold;
+    margin-top: 3rem;
+    transition: .5s ease;
+    cursor: pointer;
+    padding-top: 1rem;
+    
+}
+
+}
+@media only screen and (max-width:480px){
+    h1{
+        font-size: 2.2rem !important;
+        margin-top: 2rem;
+    }
+    .span_1_of_4{
+        width:100% ;
+    }
+    .contact-section input[type="email"] {
+        margin-right: 0 !important;
+        margin-left: -1rem !important;
+    }
+    .footer-container ul li {
+        font-size: 1.4rem !important;
+        color: #fff;
+        font-weight: bold;
+        margin:0 auto !important;
+        /* margin: 4rem 1rem; */
+        transition: .5s ease;
+        cursor: pointer;
+        /* margin-left: 1rem; */
+    }
+    .footer-section {
+        height: 5rem !important;
+        background: #3c5499;
+    }
+    .logo {
+        height: 31px !important;
+        width: auto;
+        margin-top: -32px !important;
+        float: left;
+    }
+
+}
+@media only screen and (max-width:360px){
+    .portfolio-section img {
+        /* height: 28rem !important; */
+        /* width: 28rem !important; */
+        object-fit: contain;
+        width: 100% !important;
+        margin:0;
+        padding:0;
+        /* margin-right: 1rem; */
+    }
+    .box p {
+        font-size: 1.6rem;
+        margin: 0 auto !important;
+        
+    }
+    h1{
+        font-size: 2.2rem !important;
+        margin-top: 2rem;
+    }
+    .logo {
+        height: 31px !important;
+        width: auto;
+        margin-top: -32px !important;
+        float: left;
+    }
+
+}
+@media only screen and (max-width:1200px){
+    header{
+        height: 65vh !important;
+    }
+
+}
