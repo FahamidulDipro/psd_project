@@ -105,7 +105,7 @@ section{
 /* Header Section */
 /* ============================= */
 header{
-    background:linear-gradient(#87509ce1,#87509ce1), url('../css/background_Images/editing.jpg');
+    background:linear-gradient(#87509ce1,#87509ce1), url('../css/background_Images/coding.jpg');
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -517,9 +517,18 @@ svg.ui-ux circle{
 /* ============================= */
 /* Footer section */
 /* ============================= */
-.footer-section{
-    height: 10rem;
-    background: #26376b;
+.footer-section {
+	height: 10rem;
+	background: #26376b;
+	margin-bottom: 0px;
+	overflow: hidden;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	margin-bottom: 0;
+	padding: none;
 }
 .footer-container ul{
     display:flex;
@@ -535,7 +544,7 @@ svg.ui-ux circle{
     margin:5rem 2rem ;
     transition: .5s ease;
     cursor: pointer;
-  
+    
 }
 .footer-container ul li:hover{
     color:#30bae7;
