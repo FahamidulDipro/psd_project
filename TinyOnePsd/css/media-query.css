@@ -1,0 +1,162 @@
+@media only screen and (max-width:1200px){
+    .row{
+        padding-top: 2rem;
+    }
+    .work_headings {
+        width: 80%;
+        text-align: left;
+        padding-bottom: 5rem;
+    }
+    .social_icons {
+        margin-right: 2rem;
+        margin-top: -1.6rem;
+        display: none;
+    }
+    .logo{
+        margin-left: 5rem;
+    }
+    /* Header Section */
+    .main_header{
+        padding-top: 10rem;
+        padding-bottom: 9rem;
+    }
+    .main_header div{
+        text-align: left;
+        width:80%;
+    }
+    h1{
+        font-size: 3.2rem;
+        letter-spacing: .1rem;
+    }
+    p{
+        font-size: 1.6rem;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+   /* Feature Section */
+   .features{
+       margin-bottom: 0;
+       padding-bottom: 15rem;
+   }
+   .features p{
+    /* font-size: 1.5rem;
+    width:90%; */
+   }
+   .feature_grid{
+       grid-template-columns: 1fr;
+       gap:5rem;
+   }
+  
+
+
+
+
+   /* Pricing Section*/
+
+.pricing_section{
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+}
+.pricing_article{
+    padding-bottom: 8.5rem;
+    text-align: center;
+    margin:0 auto;
+    width:100%;
+}
+
+
+.basic{
+    text-align: center;
+    padding-bottom: 10rem;
+    
+}
+
+.pricing_grid{
+    grid-template-columns: 1fr;
+    width:80%;
+   
+}
+
+/* Works Section */
+.work_headings{
+    width: 80%;
+    text-align: left;
+}
+.work_grid_container{
+    grid-template-columns: 1fr;
+}
+
+/* Team Section */
+.team_grid{
+    grid-template-columns: 1fr;
+   
+}
+.team_card img{
+    height: 10rem;
+    width:10rem;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.team_card{
+    margin-bottom: 15rem;
+}
+.team_section{
+    padding-bottom: 19.5rem;
+}
+/* Testimonial Section */
+.stats_and_testimonial_grid{
+    grid-template-columns: 1fr;
+}
+.stats_card{
+    margin-bottom: 5rem;
+}
+
+.quote_section{
+    width:60%;
+    text-align: left;
+}
+
+/* Contact Section */
+
+.contact_section .stats_and_testimonial_grid{
+    grid-template-columns: 1fr;
+}
+.contact_form form input{
+    width:90%;
+}
+textarea{
+    width:90%;
+}
+
+/* Address Section  */
+.address{
+    grid-template-columns: 1fr;
+}
+
+footer form input:first-child{
+    
+   
+}
+footer form input:nth-child(2){
+ 
+    
+}
+footer form{
+    display: block;
+     
+}
+footer form input{
+  width:100%; 
+  margin-top: 2rem;  
+}
+.lists{
+    text-align: left;
+    margin-top: 3rem;
+    width: 50%;
+}
+}
