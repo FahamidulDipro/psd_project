@@ -412,6 +412,7 @@ header nav{
     }
     .card_container .card3 {
         margin-left: 0;
+	    width:100%;
     }
     .neswletter_subscribe_section .title_press_qoutes {
         width: 100%;
