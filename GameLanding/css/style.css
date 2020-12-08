@@ -406,13 +406,15 @@ header nav{
     }
     .card_container {
         margin-top: 50px;
+	     width:100% !important;
     }
     .card_container .card1 {
         margin-left: 0;
+	     width:100% !important;
     }
     .card_container .card3 {
         margin-left: 0;
-	    width:100%;
+	    width:100% !important;
     }
     .neswletter_subscribe_section .title_press_qoutes {
         width: 100%;
