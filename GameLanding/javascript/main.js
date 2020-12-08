@@ -13,3 +13,10 @@ new Glider(document.querySelector('.slider_container'), {
   $(document).ready(function() {
     $(".dropdown-toggle").dropdown();
 });
+
+// Scroll Out
+
+ScrollOut({
+ targets:'h1,h3,h5,p, footer ul li, .icon_container i'
+});
+

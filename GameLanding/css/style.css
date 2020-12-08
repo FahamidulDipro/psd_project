@@ -241,10 +241,10 @@ header nav{
       margin:29px 0;
      
   }
-  .card h5{
-      color:#F3AF34;
-     
-  }
+  .card h5 {
+	color: #F3AF34;
+	margin: 17px 0 0 18px;
+}
   .card span{
     font-size: 14px;
     color: #FFFFFF;
@@ -260,6 +260,7 @@ header nav{
   .card_container .card3{
       margin-left: 50px;
   }
+  
   /* neswletter_subscribe_section */
   .neswletter_subscribe_section{
       background:#080a0b;
@@ -482,3 +483,83 @@ header nav{
   
    
   }
+
+  /* Animations */
+  .banner_section .heading h1{
+      animation: animate_left 400ms forwards;
+      animation-delay: 400ms;
+      opacity: 0;
+  }
+  @keyframes animate_left{
+      0%{
+          opacity:0;
+          transform: translateX(-100px);
+          
+      }
+      100%{
+          opacity: 1;
+          transform: translateX(0);
+      }
+  }
+  .banner_section .heading h3{
+    animation: animate_right 800ms forwards;
+    animation-delay: 800ms;
+    opacity: 0;
+}
+@keyframes animate_right{
+    0%{
+        opacity:0;
+        transform: translateX(100px);
+        
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+.banner_section .heading .btn{
+    animation: animate_button 1000ms forwards;
+    animation-delay: 1000ms;
+    opacity: 0;
+}
+@keyframes animate_button{
+    0%{
+        opacity:0;
+        
+        
+    }
+    100%{
+        opacity: 1;
+        
+    }
+}
+
+.battle_royale h1{
+    animation: animate_h1 800ms forwards;
+    animation-delay: 800ms;
+    opacity: 0;
+}
+@keyframes animate_h1{
+    0%{
+        opacity:0;
+        
+        
+    }
+    100%{
+        opacity: 1;
+        
+    }
+}
+
+[data-scroll] {
+    transition: opacity 1s;
+  }
+  [data-scroll="in"] {
+    opacity: 1;
+  }
+  [data-scroll="out"] {
+    opacity: 0;
+  }
+  
